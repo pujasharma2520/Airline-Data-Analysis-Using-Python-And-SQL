@@ -87,6 +87,10 @@ cursor = connection.cursor()
 - Identified high-capacity aircraft (e.g., 773, 763).
 - Determined that seat capacity alone does not guarantee highest revenue.
 
+<p align="center">
+  <img src="images/Planes with More than 100 Seats.png" alt="Planes with More than 100 Seats" width="1000"/>
+</p>
+
 ---
 
 ### 2️⃣ Ticket Volume & Revenue Trend Analysis
@@ -95,6 +99,15 @@ cursor = connection.cursor()
 - Found strong correlation between ticket volume and total revenue.
 - Revenue growth is primarily volume-driven rather than price-driven.
 
+<p align="center">
+  <img src="images/Number of Tickets Booked Over Time.png" alt="Number of Tickets Booked Over Time" width="1000"/>
+</p>
+
+
+<p align="center">
+  <img src="images/Sum of Amount EarnerdOver Time.png" alt="Sum of Amount EarnerdOver Time" width="1000"/>
+</p>
+
 ---
 
 ### 3️⃣ Fare Class Pricing Analysis
@@ -102,12 +115,20 @@ cursor = connection.cursor()
 - Business fares are approximately 3× Economy fares.
 - Wide-body aircraft generate higher premium revenue.
 
+<p align="center">
+  <img src="images/Average Charges by Aircraft and Fare Condition.png" alt="Average Charges by Aircraft and Fare Condition" width="1000"/>
+</p>
+
 ---
 
 ### 4️⃣ Total Revenue by Aircraft
 - SU9 generated the highest revenue.
 - 763 and 773 followed.
 - CN1 contributed minimal revenue.
+
+<p align="center">
+  <img src="images/Total Revenue by Aircraft Over Years.png" alt="Total Revenue by Aircraft Over Years" width="1000"/>
+</p>
 
 Key Insight:  
 Operational frequency and route allocation impact revenue more than aircraft size alone.
@@ -118,6 +139,10 @@ Operational frequency and route allocation impact revenue more than aircraft siz
 - 773 showed the highest occupancy (~33%).
 - CN1 showed the lowest occupancy (~7%).
 - Significant unused seat capacity exists across multiple aircraft.
+
+<p align="center">
+  <img src="images/Average Occupancy Rate by Aircraft.png" alt="Average Occupancy Rate by Aircraft" width="1000"/>
+</p>
 
 ---
 
@@ -134,6 +159,12 @@ Mathematical assumption:
 Revenue_new = Revenue_current × 1.10
 
 Incremental Revenue = 0.10 × Current Revenue
+
+
+<p align="center">
+  <img src="images/Turnover Increase.png" alt="Turnover Increase" width="1000"/>
+</p>
+
 
 Findings:
 
